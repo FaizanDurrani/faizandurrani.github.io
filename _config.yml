@@ -1,4 +1,4 @@
-layout: sidebar
+layout: stacked
 style: dark
 
 plugins:
@@ -17,7 +17,7 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
@@ -39,13 +39,16 @@ social_media:
 
 topics:
   - name: Unity
+    description: "One of the most popular 3D and 2D Game-Engine"
     web_url: https://github.com/topics/unity
-    image_url: https://png.pngtree.com/svg/20170317/b3063e0e9c.png
+    image_url: https://unity.com/themes/unity/images/ui/unity-logo-white.svg
 
   - name: CSharp
+    description: "Programming language made by Microsoft"
     web_url: https://github.com/topics/csharp
     image_url: https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png
 
   - name: Blender
+    description: "One of the best free and opensource 3D Modeling software"
     web_url: https://blender.org
     image_url: https://download.blender.org/institute/BlenderDesktopLogo.png
